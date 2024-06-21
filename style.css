@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&family=Teko:wght@300..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 4vmin;
+    font-family: "Teko", sans-serif;
+    color: aliceblue;
+}
+
+body {
+    background: rgb(23, 23, 23);
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    font-size: 18vmin;
+    background-clip: text;
+    color: transparent;
+    background-image:linear-gradient(90deg,rgb(141, 0, 94),rgb(0, 0, 180));
+}
+
+#clk-border {
+    position: relative;
+    height: 60vmin;
+    width: 60vmin;
+    border-radius: 100%;
+    border: 9px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(30, 34, 40);
+    box-shadow:inset 0 0 25px 10px #1a1d20;
+    outline: 4px solid #252a2bb6;
+}
+
+.hand {
+    position: absolute;
+    width: 2%;
+    background-color: rgb(99, 167, 236);
+    transform-origin: bottom;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 0 5px 3px #2d3b41;
+    transition: all ease-in-out;
+}
+
+#hour{
+    top: 20%;
+    height: 18vmin;
+}
+#minute{
+    top: 13%;
+    height: 22vmin;   
+}
+#second{
+    top: 10%;
+    height: 24vmin;
+}
+
+#center{
+    height: 4vmin;
+    width: 4vmin;
+    border-radius: 100%;
+    background-color:#2d3336;
+    box-shadow: 0 0 10px 4px #101111;
+    z-index: 1;
+}
+
+.box{
+    position: absolute;
+    height: 2vmin;
+    width: 2vmin;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+.box:nth-child(5){
+    right: 25%;
+    top: 7%;
+}
+.box:nth-child(6){
+    right: 9%;
+    top: 24%;
+}
+.box:nth-child(7){
+    right: 2%;
+    top: 47%;
+}
+.box:nth-child(8){
+    right: 10%;
+    top: 69%;
+}
+.box:nth-child(9){
+    right: 26%;
+    top: 85%;
+}
+.box:nth-child(10){
+    right: 48%;
+    top: 91%;
+}
+.box:nth-child(11){
+    left: 26%;
+    top: 85%;
+}
+.box:nth-child(12){
+    left: 10%;
+    top: 69%;
+}
+.box:nth-child(13){
+    left: 3%;
+    top: 46%;
+}
+.box:nth-child(14){
+    left: 9%;
+    top: 24%;
+}
+.box:nth-child(15){
+    left: 25%;
+    top: 8%;
+}
+.box:nth-child(16){
+    left: 47%;
+    top: 1%;
+}
