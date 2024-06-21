@@ -54,7 +54,7 @@ setInterval(() => {
             break;
         }
         case 30:{
-            boxes[5].style.color = "orange";
+            boxes[5].style.color = "lime";
             color = 5;
             break;
         }
