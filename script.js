@@ -89,11 +89,6 @@ setInterval(() => {
             break;
         }
     }
-
-    setTimeout(()=>{
-        boxes[color].style.color = "White";
-        boxes[color].style.transform = "scale(1)";
-    },2000)
     
     Sindex = second;
 
