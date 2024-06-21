@@ -17,7 +17,7 @@ setInterval(() => {
     hands[2].style.transform = `rotate(${Shand}deg)`;
 
     Hindex = hour;
-    if(hour > 12){
+    if(hour >= 12){
         Hindex -= 13;
         boxes[Hindex].style.color = "aqua";
     }
