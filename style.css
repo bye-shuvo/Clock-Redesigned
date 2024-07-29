@@ -125,3 +125,20 @@ h1{
     left: 47%;
     top: 1%;
 }
+
+
+#loader{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items:center;
+    overflow: hidden;
+}
+
+#loader div{
+    height: 5vmin;
+    width: 5vmin;
+    border-radius: 100%;
+    background-color: aqua;
+
+}

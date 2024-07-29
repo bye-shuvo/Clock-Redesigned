@@ -2,6 +2,14 @@ let hands = document.getElementsByClassName("hand");
 let boxes = document.getElementsByClassName("box");
 let Hindex, Mindex, Sindex;
 let color;
+document.body.display = "none";
+var loader = document.getElementById("loader");
+
+window.addEventListener("load" , ()=>{
+    loader.style.display = "none";
+    document.body.display = "visible";
+})
+
 setInterval(() => {
     let date = new Date();
     let hour = date.getHours();
